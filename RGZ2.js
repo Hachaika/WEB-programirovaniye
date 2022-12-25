@@ -134,14 +134,14 @@ function loadQuiz(){
     c_text.innerText = currentQuizData.answers[b[2]];
 }
 
-function shuffle(array) {                           //перемешивание массива
+function shuffle(array) {
     let currentIndex = array.length,  randomIndex;
     while (currentIndex != 0) {
   
       randomIndex = Math.floor(Math.random() * currentIndex);
       currentIndex--;
   
-      // And swap it with the current element.
+      
       [array[currentIndex], array[randomIndex]] = [
         array[randomIndex], array[currentIndex]];
     }
@@ -167,7 +167,7 @@ function getSelected(){
 
 function reset_animation() {
     quiz.style.animation = 'none';
-    quiz.offsetHeight; /* trigger reflow */
+    quiz.offsetHeight;
     quiz.style.animation = null; 
   }
 
