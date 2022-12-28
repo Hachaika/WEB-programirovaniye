@@ -37,3 +37,53 @@ body {
     line-height: 30em;
 }
 
+h1 {
+    position: fixed;
+    align-items: center;
+    bottom: 10;
+    left: 0;
+    width: 350px;
+}
+
+span {
+    font-size: 20px;
+}
+
+h2 {
+    position: fixed;
+    align-items: center; 
+    bottom: 100px;
+    left: 200px;
+    width: 350px;
+}
+
+h3 {
+    position: fixed;
+    align-items: center; 
+    bottom: 50px;
+    left: 100px;
+    width: 350px;
+}
+
+h4 {
+    position: fixed;
+    align-items: center; 
+    bottom: 10px;
+    left: 300px;
+    width: 350px;
+}
+
+h5 {
+    position: fixed;
+    align-items: center; 
+    left: 600px;
+    bottom: 100px;
+    width: 400px;
+}
+
+h5 span {
+    display: block;
+    margin-top:5px;
+    border:1px solid #dedede;
+    padding-top:5px;
+}
