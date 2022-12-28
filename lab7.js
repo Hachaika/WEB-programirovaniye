@@ -72,4 +72,30 @@ function colorRandom() {
     document.getElementById('colo').style.backgroundColor = color;
 }
 
-            
+function Table() {
+    let tAdd = document.getElementById('tableU');
+    let table = '<table border=1><tr>';
+    let x = 31; {
+      for (let y = 1; y < 11; y++) {
+        let el = '<td>' + x + 'x' + y + ' = ' + x * y + '</td>';
+        table += el;
+      }
+      table += '</tr><tr>';
+    }
+    table += '</tr></table>';
+    tAdd.innerHTML = table;
+  } 
+  
+  function Table2() {
+    let tAdd = document.getElementById('tableU2');
+    let table = '<table border=1><tr>';
+    let x = 29; {
+      for (let y = 1; y < 11; y++) {
+        let el = '<td>' + x + 'x' + y + ' = ' + x * y + '</td>';
+        table += el;
+      }
+      table += '</tr><tr>';
+    }
+    table += '</tr></table>';
+    tAdd.innerHTML = table;
+  }  
