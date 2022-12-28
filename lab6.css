@@ -1,9 +1,8 @@
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #c5c5c5;
+    background-color: #fffff0;
 }
-
 .header {
     color: white;
     background: black;
@@ -12,7 +11,6 @@ body {
     line-height: 80px;
     padding-left: 30px;
 }
-
 .footer {
     color: #888;
     font-size: 14px;
@@ -20,20 +18,15 @@ body {
     background-color: #333;
     text-align: right;
     height: 30px;
+    line-height: 30px;
     padding-right: 20px;
     position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
 }
-
-#coords {
-    background-color: black;
-    height: 500px;
-    width: 500px;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    align-items: center;
-    line-height: 30em;
+.header .language {
+    position: absolute;
+    right: 30px;
+    top: 0px;    
 }
-

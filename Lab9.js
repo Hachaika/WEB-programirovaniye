@@ -83,30 +83,3 @@ window.addEventListener('DOMContentLoaded', function() {
     texts[1].addEventListener('change',  showChange);
     texts[2].addEventListener('change',  showChange);
 });
-
-function showChange2(event) {
-    document.getElementById('output2').innerHTML=event.target.value;
-}
-
-window.addEventListener('DOMContentLoaded', function() {
-    let texts = document.querySelectorAll('input[type = "number"]');
-    texts[0].addEventListener('change',  showChange2);
-});
-
-function showChange3(event) {
-    document.getElementById('output3').innerHTML=event.target.value;
-}
-
-window.addEventListener('DOMContentLoaded', function() {
-    let texts = document.querySelectorAll('input[type = "number"]');
-    texts[1].addEventListener('change',  showChange3);
-});
-
-function showChange4(event) {
-    document.getElementById('output4').innerHTML=event.target.value;
-}
-
-window.addEventListener('DOMContentLoaded', function() {
-    let texts = document.querySelectorAll('input[type = "number"]');
-    texts[2].addEventListener('change',  showChange4);
-});

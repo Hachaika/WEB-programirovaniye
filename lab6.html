@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Поляков.К.А_Мищенко.В.Ю ФБИ-03. Лабораторная работа 6</title>
+        <link rel="stylesheet" href="lab6.css" type="text/css">
+        <script>
+            console.log('Всем привет!!!');
+
+            let x = 33;
+            let s = 'яблоки';
+            //let if = 17;
+            console.log('x=', x,'s=', s);
+        </script>
+        <script src="lab6.js"></script>
+    </head>
+    <body>
+        <div class="header" id="wapka" onclick="showAlert2()">
+            <div id="student">Поляков.К.А_Мищенко.В.Ю</div>
+            <div class="language">
+                <input type="button" value="ru" onclick="setRussian()">
+                <input type="button" value="en" onclick="setEnglish()">
+            </div>
+        </div>
+
+        <div class="content">
+            <form>
+                <div id="user-data" >
+                    <div>
+                        <span id="your-name">Ваше имя</span>: <input type="text" id="input-name" placeholder="введите имя">
+                    </div>
+                    <div>
+                        <span id="your-surname">Ваша фамилия</span>: <input type="text" id="input-surname" placeholder="введите фамилию">
+                    </div>
+                    <div>
+                        <span id="your-age">Ваш возраст</span> <input type="number" id="input-age" placeholder="введите возраст">
+                    </div>
+                    <div>
+                        <input type="button" value="ок" id="ok-button" onclick="showAlert()">
+                        <input type="reset" value="сброс" id="reset-button">
+                    </div>
+                    <div align="center">Любите ли вы оливки?
+                    <p align="center">
+                        <input type="button" value="да" id="da-button" onclick="showAlert4()">
+                        <input type="button" value="нет" id="net-button" onmouseenter="Uhadi()" onmouseout="Uhadi2()">
+                    </p>
+                    </div>
+                    <p>
+                        <img src="https://gastritinform.ru/wp-content/uploads/2019/12/olivki.jpg">
+                    </p>
+                </div>
+            </form>
+        </div>
+
+        <div class="footer" id="footer" onclick="showAlert3()">
+            Факультет Бизнеса, ФБИ-03, 3 курс, 2022
+        </div>
+
+    </body>
+</html>

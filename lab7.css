@@ -1,0 +1,40 @@
+
+.header {
+    color: white;
+    background: rgb(245, 75, 75);
+    font-size: 20px;
+    height: 80px;
+    line-height: 80px;
+    padding-left: 30px;
+}
+.footer {
+    color: rgb(99, 255, 94);
+    font-size: 14px;
+    font-style: italic;
+    background-color: rgb(32, 73, 255);
+    text-align: right;
+    height: 30px;
+    line-height: 30px;
+    padding-right: 20px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.step {
+    width: 200px;
+    height: 100px;
+    border: 1px solid;
+    position: absolute;
+    top: 300px;
+    left: 30px;
+    text-align: center;
+    line-height: 100px;
+}
+
+.sneg {
+    position: absolute;
+}
+
+body {font-size: 16px;}
+div {font-size: 1.1em;}
